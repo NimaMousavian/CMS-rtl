@@ -1,9 +1,9 @@
 import React from "react";
 
-const ErrorBox = ({ title, msg }) => {
+const ErrorBox = ({ title = "خطا", msg }) => {
   return (
     <div>
-      <div class="alert alert-error max-w-sm">
+      <div class="alert alert-error ">
         <svg
           width="48"
           height="48"
